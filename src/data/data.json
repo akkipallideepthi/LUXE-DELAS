@@ -1,0 +1,144 @@
+{
+  "site": {
+    "name": "LUXE DEALS",
+    "promoBanner": "Flash Sale Ends In: 04:32:15",
+    "promoCode": "USE CODE: SAVE20",
+    "promoTag": "EXCLUSIVE SPRING FLASH SALE"
+  },
+
+
+
+  "hero": {
+    "badge": "EXCLUSIVE SPRING FLASH SALE",
+    "title": "Up to 50% Off Everything",
+    "description": "Elevate your lifestyle with meticulously curated designer goods, high-performance electronics, and premium home essentials at unmatched prices.",
+    "cta": ["Shop the Sale", "Explore Collection"],
+    "trustBadges": ["Free Express Shipping", "100% Authentic Guarantee"]
+  },
+
+  "flashDeals": {
+    "timer": "04h 32m 15s",
+    "items": [
+      { "id": 1, "name": "Titanium Mechanical Keyboard", "price": 132, "originalPrice": 230, "save": 88,  "rating": 4.9, "discount": "SAVE 40%" },
+      { "id": 2, "name": "Luxe Travel Duffel Bag",        "price": 117, "originalPrice": 195, "save": 78,  "rating": 4.8, "discount": "SAVE 40%" },
+      { "id": 3, "name": "Atelier Silk Scarf",            "price": 78,  "originalPrice": 130, "save": 52,  "rating": 4.6, "discount": "SAVE 40%" },
+      { "id": 4, "name": "Polaroid Vintage Camera",       "price": 90,  "originalPrice": 150, "save": 60,  "rating": 4.7, "discount": "SAVE 40%" },
+      { "id": 5, "name": "Valkyrie Brass Desk Lamp",      "price": 186, "originalPrice": 310, "save": 124, "rating": 4.9, "discount": "SAVE 40%" }
+    ]
+  },
+
+  "categories": [
+    { "id": 1, "name": "Electronics", "count": 234 },
+    { "id": 2, "name": "Fashion",     "count": 189 },
+    { "id": 3, "name": "Home",        "count": 156 },
+    { "id": 4, "name": "Beauty",      "count": 98  }
+  ],
+
+  "trendingProducts": [
+    { "id": 10, "name": "Onyx Soundcore Headphones", "price": 179, "originalPrice": 249, "rating": 4.8, "reviews": 320, "badge": "BEST" },
+    { "id": 11, "name": "Minimalist Chrono Watch", "price": 120, "originalPrice": 200, "rating": 4.6, "reviews": 210, "badge": "NEW" },
+    { "id": 12, "name": "Suede Chelsea Boots", "price": 156, "originalPrice": 220, "rating": 4.7, "reviews": 180, "badge": "HOT" },
+    { "id": 13, "name": "Nero Leather Backpack", "price": 210, "originalPrice": 310, "rating": 4.9, "reviews": 450, "badge": "SALE" },
+    { "id": 14, "name": "Carrara Marble Coaster Set", "price": 39, "originalPrice": 65, "rating": 4.5, "reviews": 95, "badge": "NEW" },
+    { "id": 15, "name": "Aura Soy Candle Duo", "price": 29, "originalPrice": 50, "rating": 4.7, "reviews": 140, "badge": null },
+    { "id": 16, "name": "Hydra-Glow Essence Serum", "price": 51, "originalPrice": 80, "rating": 4.6, "reviews": 230, "badge": "HOT" },
+    { "id": 17, "name": "Alabaster Ceramic Coffee Dripper", "price": 45, "originalPrice": 70, "rating": 4.8, "reviews": 175, "badge": null }
+  ],
+
+  "newsletter": {
+    "title": "Join the Luxe Circle",
+    "description": "Subscribe to receive premium private flash sale notifications and get an extra 10% off.",
+    "placeholder": "Enter your email address"
+  },
+
+  "products": [
+    { "id": 20, "name": "SoundAura Pro Over-Ear Cans", "category": "Electronics", "price": 239, "originalPrice": 320, "rating": 4.8, "reviews": 512, "badge": "NEW", "brand": "SoundAura", "discount": 25, "colors": ["#000000", "#C0C0C0"] },
+    { "id": 21, "name": "Valkyrie Mechanical Keyboard", "category": "Electronics", "price": 144, "originalPrice": 199, "rating": 4.6, "reviews": 340, "badge": "SALE", "brand": "Valkyrie", "discount": 28, "colors": ["#000000", "#FFFFFF"] },
+    { "id": 22, "name": "Horizon Curved 34\" Gaming Monitor", "category": "Electronics", "price": 249, "originalPrice": 399, "rating": 4.7, "reviews": 280, "badge": "HOT", "brand": "Horizon", "discount": 38, "colors": ["#000000"] },
+    { "id": 23, "name": "Apex VR Headset & Controller", "category": "Electronics", "price": 359, "originalPrice": 499, "rating": 4.5, "reviews": 195, "badge": "NEW", "brand": "Apex", "discount": 28, "colors": ["#FFFFFF", "#000000"] },
+    { "id": 24, "name": "Polaroid Retro Color Camera", "category": "Electronics", "price": 195, "originalPrice": 260, "rating": 4.4, "reviews": 430, "badge": null, "brand": "Polaroid", "discount": 25, "colors": ["#FFFFFF", "#000000", "#FF6B6B"] },
+    { "id": 25, "name": "Chrono Smart Watch Edition", "category": "Electronics", "price": 185, "originalPrice": 259, "rating": 4.6, "reviews": 310, "badge": "SALE", "brand": "Chrono", "discount": 29, "colors": ["#000000", "#C0C0C0", "#FFD700"] },
+    { "id": 26, "name": "OmniStudio Soundbar System", "category": "Electronics", "price": 320, "originalPrice": 450, "rating": 4.7, "reviews": 225, "badge": null, "brand": "OmniStudio", "discount": 29, "colors": ["#000000"] },
+    { "id": 27, "name": "Lumiere Smart Ambient Light", "category": "Electronics", "price": 89, "originalPrice": 130, "rating": 4.5, "reviews": 180, "badge": "HOT", "brand": "Lumiere", "discount": 32, "colors": ["#FFFFFF", "#000000"] },
+    { "id": 28, "name": "Named Carbon Fiber Tripod", "category": "Electronics", "price": 98, "originalPrice": 149, "rating": 4.3, "reviews": 145, "badge": null, "brand": "Named", "discount": 34, "colors": ["#000000", "#808080"] },
+    { "id": 29, "name": "Aura Studio Microphone Unit", "category": "Electronics", "price": 132, "originalPrice": 189, "rating": 4.6, "reviews": 267, "badge": "NEW", "brand": "Aura", "discount": 30, "colors": ["#000000", "#C0C0C0"] },
+    { "id": 30, "name": "Apex Portable Pocket Projector", "category": "Electronics", "price": 210, "originalPrice": 299, "rating": 4.4, "reviews": 198, "badge": "SALE", "brand": "Apex", "discount": 30, "colors": ["#FFFFFF", "#000000"] },
+    { "id": 31, "name": "Hydro-Drive Waterproof Speaker", "category": "Electronics", "price": 51, "originalPrice": 89, "rating": 4.5, "reviews": 412, "badge": null, "brand": "Hydro", "discount": 43, "colors": ["#000000", "#0000FF", "#FF0000"] },
+    { "id": 32, "name": "Aero Ear True Wireless Buds", "category": "Electronics", "price": 58, "originalPrice": 99, "rating": 4.7, "reviews": 560, "badge": "HOT", "brand": "Aero", "discount": 41, "colors": ["#FFFFFF", "#000000"] },
+    { "id": 33, "name": "Crystalline Obscu Charging Pad", "category": "Electronics", "price": 24, "originalPrice": 45, "rating": 4.3, "reviews": 290, "badge": null, "brand": "Crystalline", "discount": 47, "colors": ["#FFFFFF", "#000000"] },
+    { "id": 34, "name": "Einstein Smart Home Hub", "category": "Electronics", "price": 158, "originalPrice": 220, "rating": 4.6, "reviews": 175, "badge": "NEW", "brand": "Einstein", "discount": 28, "colors": ["#FFFFFF"] },
+    { "id": 35, "name": "Quantum 1TB Portable SSD", "category": "Electronics", "price": 88, "originalPrice": 140, "rating": 4.8, "reviews": 340, "badge": "SALE", "brand": "Quantum", "discount": 37, "colors": ["#000000", "#C0C0C0"] }
+  ],
+
+  "filters": {
+    "priceRange": { "min": 0, "max": 500 },
+    "discountRanges": ["10%+ Off", "20%+ Off", "30%+ Off", "40%+ Off", "50%+ Off"],
+    "brands": ["Apple", "Samsung", "Sony", "Apex", "Aura", "Valkyrie"],
+    "ratings": [4, 3, 2, 1],
+    "colors": ["#FF0000", "#0000FF", "#000000", "#FFFFFF", "#FFA500"]
+  },
+
+  "productDetail": {
+    "id": 601,
+    "name": "WH-1000XM5 Wireless Noise Cancelling Headphones",
+    "brand": "SONY",
+    "price": 278,
+    "originalPrice": 349,
+    "rating": 4.8,
+    "reviews": 2048,
+    "colors": [
+      { "name": "Midnight Black", "hex": "#1C1C1C" },
+      { "name": "Platinum Silver", "hex": "#C0C0C0" }
+    ],
+    "shipping": "Free Express Shipping — Arrives Sep 28",
+    "returns": "30-Day Hassle-Free Returns",
+    "description": "The Sony WH-1000XM5 headphones redefine the rules for distraction-free listening. With two processors controlling eight microphones, auto-optimizing noise cancellation adapts to your listening conditions and environment.",
+    "features": [
+      "Industry-Leading Noise Cancellation: Two processors control 8 microphones for unprecedented ambient sound block.",
+      "Exceptional Sound Quality: Specially designed 30mm driver unit with carbon fiber dome supports High-Resolution Audio wireless.",
+      "Crystal Clear Hands-Free Calls: Precise Voice Pickup Technology with four beamforming microphones and wind reduction algorithm.",
+      "Ultra-Comfortable Design: Lightweight with fit optimized. Softer leather relieves pressure on the ears while keeping external sounds out.",
+      "Up to 30-Hour Battery Life: Enough power for long trips. Quick charge of 3 minutes gives up to 3 hours of playback."
+    ],
+    "specifications": {
+      "Driver Unit": "30mm, dome type",
+      "Frequency Response": "4 Hz - 40,000 Hz",
+      "Noise Cancellation": "Dual Noise Sensor Technology",
+      "Battery Life": "30 hours (NC ON), 40 hours (NC OFF)",
+      "Charging Time": "3.5 hours (USB-C)",
+      "Weight": "250g",
+      "Connectivity": "Bluetooth 5.2, 3.5mm audio"
+    },
+    "customerReviews": [
+      { "id": 1, "name": "Alex M.", "rating": 5, "date": "Aug 12, 2025", "comment": "Best headphones I've ever owned. The noise cancellation is absolutely incredible." },
+      { "id": 2, "name": "Sarah K.", "rating": 5, "date": "Aug 5, 2025", "comment": "Worth every penny. Sound quality is superb and very comfortable for long use." },
+      { "id": 3, "name": "James R.", "rating": 4, "date": "Jul 28, 2025", "comment": "Great product overall. Battery life is impressive. Slightly expensive but quality justifies it." }
+    ],
+    "breadcrumb": ["Home", "Electronics", "Headphones", "Sony WH-1000XM5"]
+  },
+  "youMayAlsoLike": [
+    { "id": 401, "name": "Onyx Soundcore Headphones", "price": 179, "originalPrice": 249, "rating": 4.8, "badge": "BEST" },
+    { "id": 402, "name": "SoundAura Pro Over-Ear", "price": 139, "originalPrice": 199, "rating": 4.6, "badge": null },
+    { "id": 403, "name": "OmniStudio Premium Soundbar", "price": 299, "originalPrice": 420, "rating": 4.7, "badge": "HOT" },
+    { "id": 404, "name": "Hydro-Drive Waterproof Speaker", "price": 88, "originalPrice": 129, "rating": 4.5, "badge": null }
+  ],
+  "footer": {
+    "tagline": "Premium online retail experiences. Hand-curated, perfectly sourced, and brought to you in unforgettable totality.",
+    "social": ["facebook", "twitter", "instagram", "youtube"],
+    "columns": [
+      {
+        "title": "SHOP DEPARTMENTS",
+        "links": ["Electronics & Audio", "Designer Fashion", "Smart Home Deals", "Jewelry Cosmetics", "Flash Deals Archive"]
+      },
+      {
+        "title": "CUSTOMER CONCIERGE",
+        "links": ["Shipping & Order Tracking", "Easy Return Portal", "Secure Payment Policy", "Corporate Gifting", "FAQ & Support Help"]
+      },
+      {
+        "title": "OUR ENTERPRISE",
+        "links": ["About Luxe Deals", "Press & Media Kit", "Investor Relations", "Vendor Applications", "Careers at Luxe"]
+      }
+    ],
+    "copyright": "© 2026 LUXE DEALS Global Retail Inc."
+  }
+}

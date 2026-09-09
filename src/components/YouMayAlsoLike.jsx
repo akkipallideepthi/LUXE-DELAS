@@ -25,14 +25,23 @@ function RelatedCard({ item }) {
         )}
       </div>
       <div className="flex flex-col gap-2 flex-1">
-        <p className="text-sm font-semibold text-gray-900 leading-snug line-clamp-2">{item.name}</p>
+        <div className="flex items-start gap-2">
+          <p className="text-sm font-semibold text-gray-900 leading-snug line-clamp-2 flex-1">{item.name}</p>
+          {/* Tablet cart icon button beside name */}
+          <button className="hidden md:flex xl:hidden w-8 h-8 bg-gray-900 hover:bg-black text-white rounded-lg items-center justify-center shrink-0 transition-colors">
+            <svg width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+              <path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.5 6h13M7 13L5.4 5M10 21a1 1 0 100-2 1 1 0 000 2zm7 0a1 1 0 100-2 1 1 0 000 2z" />
+            </svg>
+          </button>
+        </div>
         <Stars rating={item.rating} />
         <div className="flex items-center gap-2">
           <span className="text-[#FF4500] font-bold">${item.price}</span>
           <span className="text-gray-400 line-through text-xs">${item.originalPrice}</span>
         </div>
       </div>
-      <button className="w-full h-10 bg-gray-900 hover:bg-black text-white text-xs font-semibold rounded-lg transition-colors">
+      {/* Mobile and Desktop full-width button. Hidden on tablet */}
+      <button className="flex md:hidden xl:flex w-full h-10 bg-gray-900 hover:bg-black text-white text-xs font-semibold rounded-lg transition-colors items-center justify-center">
         Quick Add
       </button>
     </div>

@@ -51,7 +51,7 @@ export default function SidebarFilter({ filters }) {
       <FilterSection title="Price Range">
         <div className="flex flex-col gap-3">
           <div className="relative h-1 bg-gray-200 rounded-full">
-            <div className="absolute left-0 w-2/3 h-full bg-[#FF4500] rounded-full" />
+            <div className="absolute left-0 w-2/3 h-full bg-[#FF4500] rounded-full" /> {/* price range bar */}
             <div className="absolute left-[calc(66.6%-6px)] top-1/2 -translate-y-1/2 w-3 h-3 bg-white border-2 border-[#FF4500] rounded-full" />
           </div>
           <div className="flex items-center justify-between text-xs text-gray-500">

@@ -22,7 +22,7 @@ function ProductCard({ item }) { //Receives one product object item from the dat
       <Link to={`/product/${item.id}`} className="relative bg-gray-100 h-[130px] md:h-[160px] xl:h-[200px] rounded-[6px] md:rounded-[8px] xl:rounded-lg flex items-center justify-center shrink-0">
         <ImageIcon className="w-12 h-12 text-gray-300" />
         {/* discount badge*/}
-        <span className="absolute top-2 left-2 bg-[#FF4500] text-white text-[10px] font-bold px-2 py-0.5 rounded">-{discount}%</span>
+        <span className="absolute top-2 left-2 bg-[#FF4500] text-white text-[10px] font-bold px-2 py-0.5 rounded">-{discount}%</span>{/* discount badge in all products */}
         {item.badge && ( // optional badge only render this if item.badge exists//
           <span className="absolute bottom-2 left-2 bg-gray-900 text-white text-[10px] font-bold px-2 py-0.5 rounded">{item.badge}</span>
         )}

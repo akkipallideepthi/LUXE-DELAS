@@ -32,27 +32,27 @@ function DealsIcon() {
 
 function getActiveTab(pathname) {
   if (pathname === '/') return 'home'
-  if (pathname === '/products') return 'categories'
-  if (pathname.startsWith('/product/')) return 'deals'
+  if (pathname === '/products') return 'categories'// the products page is categoires page//
+  if (pathname.startsWith('/product/')) return 'deals' //product details page is considered part of deals tab//
   return 'home'
 }
 
 export default function MobileBottomNav() {
-  const location = useLocation()
-  const activeTab = getActiveTab(location.pathname)
+  const location = useLocation() //react router to get the current path //
+  const activeTab = getActiveTab(location.pathname) //determine the active tab based on the current path//
 
   const tabs = [
-    { id: 'home', label: 'Home', href: '/', icon: <HomeIcon /> },
-    { id: 'categories', label: 'Categories', href: '/products', icon: <CategoryIcon /> },
-    { id: 'deals', label: 'Deals', href: '/products', icon: <DealsIcon /> },
-    { id: 'wishlist', label: 'Wishlist', href: '/', icon: <HeartIcon width={20} height={20} /> },
-    { id: 'account', label: 'Account', href: '/', icon: <PersonIcon width={20} height={20} /> },
+    { id: 'home', label: 'Home', href: '/', icon: <HomeIcon /> },//home tab is the root path//
+    { id: 'categories', label: 'Categories', href: '/products', icon: <CategoryIcon /> },//categories tab is the products page//
+    { id: 'deals', label: 'Deals', href: '/products', icon: <DealsIcon /> },//deals tab is also the products page,but it will highlight in product detail page//
+    { id: 'wishlist', label: 'Wishlist', href: '/', icon: <HeartIcon width={20} height={20} /> },//whishlist tab is the root path//
+    { id: 'account', label: 'Account', href: '/', icon: <PersonIcon width={20} height={20} /> },//account tab is the root path//
   ]
 
   return (
     <nav className="fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-gray-200 md:hidden h-[65px]">
       <div className="flex items-center justify-between h-[52px] px-2 py-2">
-        {tabs.map((tab) => {
+        {tabs.map((tab) => { //map over the tabs array
           const isActive = tab.id === activeTab
           return (
             <Link
